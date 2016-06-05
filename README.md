@@ -1,4 +1,4 @@
-# Ember-cli-strophe
+# Ember-cli-strophe-shim
 
 This README outlines the details of collaborating on this Ember addon.
 

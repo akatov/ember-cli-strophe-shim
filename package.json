@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-strophe",
+  "name": "ember-cli-strophe-shim",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
@@ -46,7 +46,8 @@
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
     "ember-cli-babel": "^5.1.6",
-    "strophe.js": "^1.2.5"
+    "strophe.js": "^1.2.5",
+    "strophejs-plugins": "0.0.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

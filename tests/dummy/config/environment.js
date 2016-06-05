@@ -43,5 +43,9 @@ module.exports = function(environment) {
 
   }
 
+  ENV.strophe = {
+    plugins: ['ping', 'archive', 'roster']
+  };
+
   return ENV;
 };
