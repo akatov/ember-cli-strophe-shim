@@ -1,5 +1,10 @@
 # ember-cli-strophe-shim
 
+[![Build Status](https://travis-ci.org/akatov/ember-cli-strophe-shim.svg?branch=master)](https://travis-ci.org/akatov/ember-cli-strophe-shim)
+[![npm Version](https://img.shields.io/npm/v/ember-cli-strophe-shim.svg?style=flat-square)](https://www.npmjs.org/package/ember-cli-strophe-shim)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-strophe-shim.svg)](http://emberobserver.com/addons/ember-cli-strophe-shim)
+[![Ember badge](http://embadge.io/v1/badge.svg?start=1.0.0)](http://embadge.io/)
+
 ES6 accessible modules for [Strophe](http://strophe.im/) within your Ember applications.
 
 ## Installation
