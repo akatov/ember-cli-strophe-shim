@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-strophe-shim",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ES6 accessible modules of Strophe for Ember.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,18 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akatov/ember-cli-strophe-shim"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": {
+    "name" : "Dmitri Akatov",
+    "email" : "akatov@gmail.com",
+    "url" : "http://github.com/akatov"
+  },
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
