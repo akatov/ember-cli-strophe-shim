@@ -5,7 +5,7 @@
 [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-strophe-shim.svg)](http://emberobserver.com/addons/ember-cli-strophe-shim)
 [![Ember badge](http://embadge.io/v1/badge.svg?start=1.0.0)](http://embadge.io/)
 
-ES6 accessible modules for [Strophe](http://strophe.im/) within your Ember applications.
+ES6 accessible modules for [Strophe](http://strophe.im/strophejs/) within your Ember applications.
 
 ## Installation
 
@@ -33,8 +33,8 @@ c.send($pres());
 
 ## Strophe Plugins
 
-To enable a Strophe [plugin](https://github.com/strophe/strophejs-plugins) include it
-in your config like so:
+To enable a Strophe [plugin](https://github.com/strophe/strophejs-plugins/#readme)
+include it in your config like so:
 
 * config/environment.js
 ```js
