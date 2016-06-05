@@ -6,7 +6,7 @@ var mergeTrees = require('broccoli-merge-trees');
 var path = require('path');
 
 // we only need to mention the ones that aren't `strophe.plugin.js`
-const PLUGIN_FILES = {
+var PLUGIN_FILES = {
   caps: ['strophe.CAPS.js'],
   cmds: ['src/strophe.cmds.js'],
   dataforms: ['src/strophe.x.js'],
