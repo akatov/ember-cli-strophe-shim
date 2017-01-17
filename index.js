@@ -44,9 +44,7 @@ module.exports = {
     }
     var nmp = path.join(__dirname, 'node_modules');
     var strophePath = path.dirname(require.resolve('strophe.js'));
-    console.log(strophePath);
     var strophePluginsPath = path.join(nmp, 'strophejs-plugins');
-    console.log(strophePluginsPath);
     var config = this.getConfig();
     var plugins = config.plugins || [];
     trees.push(new Funnel(strophePath, {
@@ -56,7 +54,6 @@ module.exports = {
     plugins.forEach(function(plugin) {
       var p = path.join(strophePluginsPath, plugin);
       var includeFiles = PLUGIN_FILES[plugin] || ['strophe.' + plugin + '.js'];
-      console.log(plugin, p, includeFiles);
       trees.push(new Funnel(p, {
         destDir: 'strophe',
         include: includeFiles,
