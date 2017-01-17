@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-strophe-shim",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ES6 accessible modules of Strophe for Ember.",
   "directories": {
     "doc": "doc",
